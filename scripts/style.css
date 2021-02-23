@@ -1,0 +1,142 @@
+body{
+	font-family: Trebuchet MS, Tahoma, Verdana, sans-serif;
+	font-size: 1.15em;
+	background: #fff;
+    color: #000;
+	margin: 0;
+	background: linear-gradient(225deg, #fff 32%, #000 61%);
+	background: url(/images/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner{
+	width: 100%;
+	background: #fff;
+}
+
+.banner_anchor{
+	
+}
+
+.banner_image{
+	width: 100%;
+}
+
+nav{
+    width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+.nav_ul{
+    width: 100%;
+    height: 10%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.nav_li{
+    float: left;
+}
+
+.nav_li .nav_anchor{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.nav_li .nav_anchor:hover{
+    display: block;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.nav_li_right{
+    float: right;
+}
+
+.nav_li_right .nav_anchor_right{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.nav_li_right .nav_anchor_right:hover{
+    display: block;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.nav_active{
+    display: block;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.main{
+	width: 95%;
+	margin: auto;
+	border: 4px solid #000;
+	border-top: none;
+	background: #fff;
+}
+
+@media (hover:none) {
+	
+	.head{
+		font-size: 7.5vw;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: Arial Black, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.sub_head{
+		font-size: 5vw;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	
+}
+
+@media (hover) {
+	
+	.head{
+		font-size: 5vw;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: Arial Black, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.sub_head{
+		font-size: 2.5vw;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	
+}
