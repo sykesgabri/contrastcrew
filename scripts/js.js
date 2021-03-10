@@ -16,7 +16,7 @@ function topButt(){
 }
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
+function hamBurger() {
   var x = document.getElementById("navUl");
   if (x.className === "nav_ul") {
     x.className += " responsive";
