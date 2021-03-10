@@ -14,3 +14,13 @@ function topButt(){
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("navUl");
+  if (x.className === "nav_ul") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav_ul";
+  }
+}
