@@ -15,23 +15,12 @@ function topButt(){
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-if (mob = null){
-    var mob = "no"
-}
-
-function mobileAlert(x) {
-  if (wide.matches) { // If media query matches
-    if (mob = "yes") {
-        null
-    } else {
-      var mob = "yes"
-      alert("You appear to be on mobile, we have a mobile optimized site at 'm.contrastcrew.co.uk'.");
-  }
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-   null;
+    x.className = "topnav";
   }
 }
-
-var wide = window.matchMedia("(max-width: 700px)")
-mobileAlert(wide) // Call listener function at run time
-wide.addListener(mobileAlert) // Attach listener function on state changes

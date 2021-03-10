@@ -32,7 +32,7 @@ nav{
     z-index: 1000;
 }
 
-.nav_ul{
+/*.nav_ul{
     width: 100%;
     height: 10%;
     list-style-type: none;
@@ -91,6 +91,68 @@ nav{
     text-align: center;
     padding: 18px;
     text-decoration: none;
+}*/
+
+.topnav{
+	background: #000;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 18px;
+	text-decoration: none;
+}
+
+.topnav a:hover{
+	background: #fff;
+	color: #000;
+}
+
+.topnav a.active{
+	background: #fff;
+	color: #000;
+}
+
+.topnav .icon{
+	display: none;
+	color: #ff8000;
+}
+
+@media screen and (max-width: 600px) {
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
 }
 
 .main{
@@ -240,28 +302,28 @@ nav{
 }
 
 .mtbnamea:link{
-    color: #7479da;
+    color: #ff8000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
 }
 
 .mtbnamea:visited{
-    color: #7479da;
+    color: #ff8000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
 }
 
 .mtbnamea:active{
-    color: #7479da;
+    color: #ff8000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
 }
 
 .mtbnamea:hover{
-    color: #212121;
+    color: #000;
     text-decoration: none;
 }
 
@@ -276,11 +338,11 @@ nav{
 @media (hover:none) {
 	.mtbnameimgimg{
 		width: 70%;
-		border: 4px solid #212121;
+		border: 4px solid #000;
 	}
 
     .mtbimage{
-        border: 4px solid #212121;
+        border: 4px solid #000;
         width: 50%;
     }
 }
@@ -288,11 +350,11 @@ nav{
 @media (hover) {
 	.mtbnameimgimg{
 		width: 20%;
-		border: 4px solid #212121;
+		border: 4px solid #000;
 	}
 
     .mtbimage{
-        border: 4px solid #212121;
+        border: 4px solid #000;
         width: 15%;
     }
 }
@@ -302,8 +364,8 @@ nav{
 	margin-right: 1%;
 	text-align: center;
     font-weight: bolder;
-    color: #7479da;
-	text-shadow: 1px 0 0 #212121, 0 1px 0 #212121, -1px 0 0 #212121, 0 -1px 0 #212121;
+    color: #ff8000;
+	text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
@@ -314,8 +376,8 @@ nav{
 	margin-right: 1%;
 	text-align: center;
     font-weight: bolder;
-    color: #7479da;
-	text-shadow: 1px 0 0 #212121, 0 1px 0 #212121, -1px 0 0 #212121, 0 -1px 0 #212121;
+    color: #ff8000;
+	text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
@@ -326,8 +388,8 @@ nav{
 	margin-right: 1%;
 	text-align: center;
     font-weight: bolder;
-    color: #7479da;
-	text-shadow: 1px 0 0 #212121, 0 1px 0 #212121, -1px 0 0 #212121, 0 -1px 0 #212121;
+    color: #ff8000;
+	text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
     text-decoration: none;
 	transition-duration: 0.05s;
     -webkit-transition-duration: 0.05s;
@@ -338,8 +400,8 @@ nav{
 	margin-right: 1%;
 	text-align: center;
     font-weight: bolder;
-    color: #212121;
-	text-shadow: 1px 0 0 #7479da, 0 1px 0 #7479da, -1px 0 0 #7479da, 0 -1px 0 #7479da;
+    color: #000;
+	text-shadow: 1px 0 0 #ff8000, 0 1px 0 #ff8000, -1px 0 0 #ff8000, 0 -1px 0 #ff8000;
     text-decoration: none;
 }
 
@@ -399,5 +461,5 @@ nav{
 }
 
 ::-webkit-scrollbar-thumb:hover{
-	background: #212121;
+	background: #000;
 }
