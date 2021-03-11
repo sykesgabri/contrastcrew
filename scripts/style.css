@@ -232,6 +232,17 @@ nav{
 	text-align: center;
 }
 
+.warning_paragraph{
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
+	color: #f00;
+	background: #555;
+	font-weight: bold;
+	border: 2px solid #555;
+	text-transform: uppercase;
+}
+
 .bottom_bar{
 	background: #fff;
 	width: 85%;
