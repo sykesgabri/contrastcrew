@@ -438,6 +438,15 @@ nav{
     font-size: 1.9vw;
 }
 
+.mtbnametext_404{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-size: 1.9vw;
+	color: #900;
+}
+
 #topButt{
     display: none;
     position: fixed;
